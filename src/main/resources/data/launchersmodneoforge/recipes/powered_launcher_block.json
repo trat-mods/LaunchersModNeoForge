@@ -1,0 +1,23 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "#D#",
+        "#P#",
+        "###"
+    ],
+    "key": {
+        "P": {
+            "item": "minecraft:tnt"
+        },
+        "#": {
+            "item": "minecraft:gold_ingot"
+        },
+        "D": {
+            "item": "launchersmodneoforge:launcher_block"
+        }
+    },
+    "result": {
+        "item": "launchersmodneoforge:powered_launcher_block",
+        "count": 1
+    }
+}

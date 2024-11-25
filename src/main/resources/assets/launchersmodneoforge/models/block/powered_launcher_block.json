@@ -1,0 +1,10 @@
+{
+    "parent": "launchersmodneoforge:template/template_launcher_block",
+    "textures": {
+        "bottom": "launchersmodneoforge:block/powered_launcher_block_bottom",
+        "top": "launchersmodneoforge:block/powered_launcher_block_top",
+        "side": "launchersmodneoforge:block/powered_launcher_block_side"
+    }
+}
+
+

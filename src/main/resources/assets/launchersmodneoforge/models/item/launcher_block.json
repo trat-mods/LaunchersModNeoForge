@@ -1,0 +1,36 @@
+{
+    "parent": "block/orientable",
+    "textures": {
+        "extender": "minecraft:block/piston_top",
+        "particle": "#extender",
+        "side": "launchersmodneoforge:block/launcher_block_side",
+        "down": "launchersmodneoforge:block/launcher_block_bottom",
+        "up": "launchersmodneoforge:block/launcher_block_top"
+    },
+    "elements": [
+        {
+            "from": [0, 0, 0],
+            "to": [16, 12, 16],
+            "faces": {
+                "down": {"texture": "#down", "cullface": "down"},
+                "up": {"texture": "#up", "cullface": "up"},
+                "north": {"texture": "#side", "cullface": "north"},
+                "south": {"texture": "#side", "cullface": "south"},
+                "west": {"texture": "#side", "cullface": "west"},
+                "east": {"texture": "#side", "cullface": "east"}
+            }
+        },
+        {
+            "from": [0, 12, 0],
+            "to": [16, 16, 16],
+            "faces": {
+                "down": {"texture": "#extender"},
+                "up": {"texture": "#extender"},
+                "north": {"texture": "#extender"},
+                "south": {"texture": "#extender"},
+                "west": {"texture": "#extender"},
+                "east": {"texture": "#extender"}
+            }
+        }
+    ]
+}

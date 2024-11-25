@@ -1,0 +1,8 @@
+{
+    "parent": "launchersmodneoforge:template/template_launcher_head",
+    "textures": {
+        "extender": "launchersmodneoforge:block/extreme_launcher_block_extender",
+        "top": "launchersmodneoforge:block/extreme_launcher_block_head_top",
+        "side": "launchersmodneoforge:block/extreme_launcher_block_head_side"
+    }
+}
